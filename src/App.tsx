@@ -178,10 +178,13 @@ export default function App() {
     <div className="min-h-screen bg-zinc-950 text-white font-sans selection:bg-accent selection:text-black lg:h-screen lg:overflow-hidden flex flex-col">
       {/* Header - Styled for BOLD TOPOGRAPHY */}
       <header className="bg-zinc-950 border-b border-zinc-800 p-8 lg:px-12 flex flex-col sm:flex-row sm:items-end justify-between gap-6 shrink-0">
-        <div className="branding">
+        <div className="branding flex flex-col justify-center">
           <h1 className="text-5xl lg:text-7xl font-black tracking-tighter uppercase leading-none">
             Caffeine<span className="text-accent">.</span>Pro
           </h1>
+          <p className="text-[10px] font-black uppercase tracking-[3px] text-zinc-500 mt-2">
+            Made by Pramod Jadhav
+          </p>
         </div>
         
         <div className="flex flex-col items-end gap-3 min-w-[200px]">
