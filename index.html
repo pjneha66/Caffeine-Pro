@@ -2,10 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#0A0A0A" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Caffeine.Pro" />
+    <meta name="description" content="Track your daily caffeine intake with an extensive Indian beverage database" />
+    <meta name="mobile-web-app-capable" content="yes" />
     <link rel="manifest" href="/manifest.json" />
-    <meta name="theme-color" content="#E1FC6F" />
-    <title>Caffeine Tracker Pro Max (India Edition)</title>
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <title>Caffeine.Pro — India Edition</title>
+    <style>
+      /* Prevent flash of white on load */
+      html, body { background: #0A0A0A; margin: 0; padding: 0; }
+      /* Safe area padding for notch devices */
+      .safe-area-pb { padding-bottom: env(safe-area-inset-bottom, 0px); }
+    </style>
   </head>
   <body>
     <div id="root"></div>
@@ -23,4 +35,3 @@
     </script>
   </body>
 </html>
-
